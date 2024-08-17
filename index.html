@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Mi Portafolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#acerca">Acerca de</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="jumbotron text-center">
+        <img src="assets/img/fotoperfil.jpg" class="img-fluid rounded-circle mb-3" id="fotoperfil" alt="Foto de Perfil" style="max-width: 150px;">
+        <h1 class="display-4">Juan Sebastián González</h1>
+        <p class="lead">UX/UI Designer | Front-end developer</p>
+        <h5 class="marg">Hola, Soy Juan. Tengo 32 años y soy UX/UI Designer con experiencia principalmente en la investigación de usuario. Tengo interés principalmente en el uso de herramientas digitales cómo Figma y programas de la suite de Adobe. Soy un profesional
+            preocupado por los detalles, la consistencia y la accesibilidad que puedan ofrecer los productos digitales. En mis trabajos ponga especial enfasis en los puntos de dolor de los usuarios, buscando la resolución de problemas de uso con opciones
+            modernas y ajustadas a los mapas mentales de los usuarios.</h5>
+    </header>
+
+    <!-- Sección Proyectos -->
+    <section id="proyectos" class="container my-5">
+        <h1 class="text-center">Proyectos</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/img/arte.jpg" class="card-img-top" alt="Proyecto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">DigiArtChile</h5>
+                        <p>Landing page para una tienda de venta de arte en Chile</p>
+                        <a href="https://juangox.github.io/Arte/">Enlace</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/img/gigeo.jpg" class="card-img-top" alt="Proyecto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">GIGEO</h5>
+                        <p>Diseño de una pagina web para una blogger, responsive</p>
+                        <a href="https://juangox.github.io/GIGEOApp/">Enlace</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/img/nontai.jpg" class="card-img-top" alt="Proyecto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Proyecto 3</h5>
+                        <p>Diseño e-commerse para una tienda de cuadros e ilustraciones digitales.</p>
+                        <a href="https://juangox.github.io/Nontaichile/">Enlace</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Acerca de -->
+    <section id="acerca" class="container my-5">
+        <h1 class="text-center">Acerca de</h1>
+        <p class="text-center" id="textito">Con 2 años de experiencia en el Diseño UX/UI y el desarrollo de productos digitales, cuento con experiencia en el área y en el trabajo en equipos multidiciplinarios.</p>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="container my-5">
+        <h1 class="text-center">Contacto</h1>
+        <form>
+            <div class="form-group">
+                <label for="name">Nombre</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Correo Electrónico</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensaje</label>
+                <textarea class="form-control" id="message" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+        <div class="text-center mt-3">
+            <a href="https://www.linkedin.com/in/jsgonzalezg/" class="btn btn-info">LinkedIn</a>
+            <a href="#" class="btn btn-success">WhatsApp</a>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
